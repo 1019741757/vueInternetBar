@@ -1,0 +1,11 @@
+//sidebar
+$menuBg:#304156;
+$subMenuBg: rgba(255, 255, 255, 0.7);
+$menuHover:#feceb5;
+/* 改变主题色变量 */
+$--color-primary: #424564;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";

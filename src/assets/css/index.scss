@@ -1,0 +1,395 @@
+@import '../font/iconfont.css';
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.font_color {
+  color: #e95f20;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.el-menu {
+  border: none;
+}
+
+.active_nav {
+  background-color: #424564;
+  color: #fff;
+}
+
+.navbar-header {
+  background-color: #51567c;
+}
+
+.wrappbody {
+  overflow-y: auto;
+  background-color: #f5f5f5;
+}
+
+.GameComponents_misu {
+  padding: 40px 10px 10px;
+}
+
+.homepage_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  text-align: center;
+}
+
+.homepage_ul .homepage_li {
+  flex: 1;
+  padding: 6% 2% 4%;
+  border-radius: 8px;
+}
+
+.homepage_ul .homepage_li span {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.homepage_ul .homepage_li p {
+  color: #929292;
+}
+
+.homepage_ul .homepage_li:first-child p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.homepage_backou1 {
+  background-color: #f6ae3f;
+  color: #fff;
+}
+
+.homepage_backou2 {
+  background-color: #69cdc5;
+  color: #fff;
+}
+
+.homepage_backou3 {
+  background-color: #ff6d60;
+  color: #fff;
+}
+
+.homepage_backou4 {
+  background-color: #6985ce;
+  color: #fff;
+}
+
+.homepage_backou5 {
+  background-color: #c275ff;
+  color: #fff;
+}
+
+.homepage_backou6 {
+  background-color: #ef7e5c;
+  color: #fff;
+}
+
+.homepage_PersonalInformation .homepage_Personal {
+  background-color: #fff;
+}
+
+.navbar_PublicHead {
+  float: left;
+  display: flex;
+  width: 60%;
+
+  .navbar_PublicHead_li {
+    display: inline-block;
+    width: 12.5%;
+    height: 96px;
+    padding-top: 14px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-right: 1px solid;
+    border-right-color: #ccc;
+    cursor: pointer;
+
+    .iconfont {
+      font-size: 32px;
+    }
+
+    .p {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
+
+.Nav_igation {
+  text-align: left;
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.Nav_igation span {
+  font-size: 16px;
+  float: left;
+  height: 15px;
+  line-height: 16px;
+  margin-top: 10px;
+  margin-left: 5%;
+  padding-left: 5px;
+  border-left: 3px solid #31c2e1;
+}
+
+.title_h3 {
+  height: 45px;
+  line-height: 45px;
+  text-indent: 20px;
+  background-color: #fff;
+  text-align: left;
+  font-size: 16px;
+  color: #51567c;
+  font-weight: bold;
+  border-left: 5px solid #51567c;
+}
+
+.title_pop {
+  font-size: 16px;
+  line-height: 50px;
+}
+
+.title_pop span {}
+
+.title_pop span a {
+  color: #f56c6c;
+}
+/******************************/
+.GameComponents_wa {
+  background-color: #6a85ce;
+  color: #fff;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.homepage_top {}
+
+.homepage_top .homepage_images {
+  width: 100%;
+}
+
+.homepage_top .homepage_images img {
+  width: 100%;
+  height: 150px;
+}
+
+.homepage_top .homepage_btn {
+  width: 100%;
+  height: 158px;
+  margin-top: 2%;
+  padding: 7% 5%;
+  text-align: left;
+  background: url("~@/assets/images/guangg2.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.homepage_top .homepage_btn .PrizeExchange_input {
+  width: 70%;
+  float: left;
+}
+
+.homepage_top .homepage_btn input {
+  height: 48px;
+  border: 1px solid #51567c;
+  padding-left: 25px;
+  font-size: 16px;
+}
+
+.homepage_top .homepage_btn button {
+  height: 48px;
+  width: 25%;
+  border: none;
+  font-size: 16px;
+  margin-left: 18px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #51567c;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.homepage_top .homepage_btn button:hover {
+  background-color: #6a85ce;
+}
+
+.PrizeExchange {
+  text-align: center;
+  font-size: 17px;
+  color: #ff6d60;
+}
+.color_loading .el-icon-loading,
+.color_loading .el-loading-text {
+  color: #fff;
+  font-size: 16px;
+}
+.PrizeExchange span {}
+/************************************************/
+
+.login-box {
+  width: 100%;
+  height: 100%;
+  background: url("~@/assets/images/background.jpg") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.login-box .login-content {
+  height: 100%;
+}
+
+.login-box .login-content .login_admin {}
+
+.login-box .login-content .login_admin .login-container {
+  width: 500px;
+  background-color: #fff;
+  position: absolute;
+  top: 23%;
+  right: 12%;
+  border-radius: 8px;
+  padding: 2% 4% 4%;
+}
+
+.login-content-title {
+  font-size: 26px;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 35px;
+  color: #333333;
+}
+
+.input-box-input {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input-box-input .el-input__inner {
+  height: 40px;
+}
+
+.base-title {
+  height: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #474747;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 29px;
+}
+
+.base-title i {
+  color: #ff6d60;
+  margin-right: 10px;
+}
+
+.base-info {
+  width: 100%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 24px;
+}
+
+.base-info .base-info-li {
+  font-size: 16px;
+  line-height: 31px;
+  color: #474747;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.base-info .base-info-li span {
+  color: #aeaeae;
+  box-sizing: border-box;
+}
+
+.user_nameout {
+  color: #f6ae3f !important;
+  position: relative;
+  padding-left: 34px;
+}
+
+.user_nameout i {
+  position: absolute;
+  left: 0;
+  top: -4px;
+  font-size: 27px;
+  color: #f6ae3f !important;
+}
+
+.user_faoiubody {
+  position: absolute;
+  top: 70px;
+}
+
+.user_faoiubody > div {
+  width: 142px;
+  height: 108px;
+  padding: 5px 0;
+  background-color: #fff;
+  border: 1px solid #ebeef5;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.user_faoiubody_box {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #51567c;
+  text-align: center;
+  background: url("~@/assets/images/QQ.png") no-repeat;
+  background-position: 15px 8px;
+}
+
+.user_faoiubody_box:hover {
+  color: #f6ae3f;
+}
+
+.user_faoiubody_pone {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #51567c;
+  text-align: center;
+  padding-left: 15px;
+  background: url("~@/assets/images/pone.png") no-repeat;
+  background-position: 14px 8px;
+}
+
+.login-content-title .el-icon-back {
+  float: left;
+  margin-top: 10px;
+  cursor: pointer;
+}
